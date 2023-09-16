@@ -1,33 +1,33 @@
 const questions = [
     {
-        question: "JavaScript ignores??",
+        question: "JavaScript ignores?",
         answers: [
             { text: "newlines", correct: false},
-            { text: "tabs", correct: true},
+            { text: "tabs", correct: false},
             { text: "spaces", correct: false},
-            { text: "All of the above", correct: false},
+            { text: "All of the above", correct: true},
             
         ]
     },
 
     {
-        question: "What is my lastname ?",
+        question: "Which JavaScript method is used to access an HTML element by id?",
         answers: [
-            { text: "Ram", correct: false},
-            { text: "Sam", correct: false},
-            { text: "Jodu", correct: true},
-            { text: "Modu", correct: false},
+            { text: "RgetElementById()am", correct: false},
+            { text: "getElement(id)", correct: false},
+            { text: "getElementById(id)", correct: true},
+            { text: "elementById(id)", correct: false},
             
         ]
     },
 
     {
-        question: "What is my middlename ?",
+        question: "Which property is used to define the HTML content to an HTML element with a specific id?",
         answers: [
-            { text: "Ram", correct: false},
-            { text: "Sam", correct: true},
-            { text: "Jodu", correct: false},
-            { text: "Modu", correct: false},
+            { text: "innerText", correct: false},
+            { text: "innerContent", correct: false},
+            { text: "elementText", correct: false},
+            { text: "innerHTML", correct: true},
             
         ]
     }
