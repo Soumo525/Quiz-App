@@ -5,7 +5,7 @@ const questions = [
             { text: "Object-Oriented", correct: true},
             { text: "Object-Based", correct: false},
             { text: "Assembly-language", correct: false},
-            { text: "High-level", correct: false},
+            { text: "Middle-level", correct: false},
             
         ]
     },
