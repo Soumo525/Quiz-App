@@ -1,33 +1,33 @@
 const questions = [
     {
-        question: "What is my name ?",
+        question: "Javascript is an _______ language?",
         answers: [
-            { text: "Ram", correct: false},
-            { text: "Sam", correct: true},
-            { text: "Jodu", correct: false},
-            { text: "Modu", correct: false},
+            { text: "Object-Oriented", correct: true},
+            { text: "Object-Based", correct: false},
+            { text: "Assembly-language", correct: false},
+            { text: "High-level", correct: false},
             
         ]
     },
 
     {
-        question: "What is my lastname ?",
+        question: "Which one of the following is the correct way for calling the JavaScript code ?",
         answers: [
-            { text: "Ram", correct: false},
-            { text: "Sam", correct: false},
-            { text: "Jodu", correct: true},
-            { text: "Modu", correct: false},
+            { text: "Preprocessor", correct: false},
+            { text: "Triggering Event", correct: false},
+            { text: "RMI", correct: false},
+            { text: "Function/Method", correct: true},
             
         ]
     },
 
     {
-        question: "What is my middlename ?",
+        question: "Which of the following givenfunctions of the Number Object formats a number with a different number of digits to the right of the decimal?",
         answers: [
-            { text: "Ram", correct: false},
-            { text: "Sam", correct: true},
-            { text: "Jodu", correct: false},
-            { text: "Modu", correct: false},
+            { text: "toExponential()", correct: false},
+            { text: "toExponential()", correct: true},
+            { text: "toPrecision()", correct: false},
+            { text: "toLocaleString()", correct: false},
             
         ]
     }
