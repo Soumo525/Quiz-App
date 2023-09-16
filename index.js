@@ -25,7 +25,7 @@ const questions = [
         question: "Which of the following givenfunctions of the Number Object formats a number with a different number of digits to the right of the decimal?",
         answers: [
             { text: "toExponential()", correct: false},
-            { text: "toExponential()", correct: true},
+            { text: "toFixed()", correct: true},
             { text: "toPrecision()", correct: false},
             { text: "toLocaleString()", correct: false},
             
